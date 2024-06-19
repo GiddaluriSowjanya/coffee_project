@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*navbar section*/
+.navbar-toggler {
+    border-color: rgba(237, 232, 232, 0.1);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#customItem1, #customItem2, #customItem3, #customItem4, #customItem5{
+    color: #fff;
+    font-size: 20px;
+}
+/*navbar section*/
+
+/* inner banner */
+.inner-banner{
+    background-image: url("coffee_folder/man-apron-pouring-coffee-cup-customer.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+}
+.inner-text-title{
+    color: #fff;
+
+    font-size: 35px;
+}
+.inner-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.inner-span{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* inner banner */
+
+/*explore menu */
+.bg-exploremenu-container {
+    background-color: white;
+}
+
+.bg-exploremenu-card-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.explore-section-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.explore-section-card-image {
+    height: 50px;
+    width: 40px;
+}
+
+.explore-section-heading {
+    font-size: 18px;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.explore-section-item {
+    color: #d0b200;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-style {
+    font-size: 30px;
+}
+/* explore menu */
+
+/* footer section*/
+
+.footer-section {
+    background-image: url("coffee_folder/footer.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 60px; /* Added padding to ensure content fits within the footer */
+}
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+.big-text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.subscribe {
+    position: relative;
+}
+.form-input{
+    border: 1px solid #fff;
+    width: 400px;
+    height: 40px;
+    padding: 0 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+
+}
+.form-button{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ffc107;
+    color: #fff;
+
+
+}
+
+.cafe-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cafe-para {
+    color: #fff;
+}
+
+.icon-foo {
+    list-style-type: none;
+}
+
+.con-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copy-text {
+    color: #fff;
+}
+
+.social a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.list-footer-block li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer section */

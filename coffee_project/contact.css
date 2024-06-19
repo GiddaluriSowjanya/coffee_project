@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*navbar section*/
+.navbar-toggler {
+    border-color: rgba(237, 232, 232, 0.1);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#customItem1, #customItem2, #customItem3, #customItem4, #customItem5{
+    color: #fff;
+    font-size: 20px;
+}
+/*navbar section*/
+
+/* inner banner */
+.inner-banner{
+    background-image: url("coffee_folder/man-apron-pouring-coffee-cup-customer.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+}
+.inner-text-title{
+    color: #fff;
+
+    font-size: 35px;
+}
+.inner-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.inner-span{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* inner banner */
+
+/* contact section*/
+.bg-contacts {
+    background: #fff;
+    padding: 5rem 0;
+}
+
+.contact-top {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.sub-title i {
+    margin-right: 0.5rem;
+    color: #ff9800;
+}
+
+.title-style {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+
+.main-input {
+    max-width: 600px;
+    margin: 0 auto 4rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.top-inputs input,
+.main-input input[type="text"],
+.main-input textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.main-input button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.main-input button:hover {
+    background: #e68a00;
+}
+
+
+.wrapper-full {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin: 2rem 0;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-text-sub {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.buttons-teams a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.buttons-teams a:hover {
+    color: #ff9800;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .top-inputs {
+        grid-template-columns: 1fr;
+    }
+
+    .main-input {
+        padding: 1.5rem;
+    }
+}
+/* contact section */
+
+/*location section */
+.bg-map{
+    background-image: url("coffee_folder/pink-blue-pushpins-showing-marking-location-map.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+/* location section */
+
+/* footer section*/
+
+.footer-section {
+    background-image: url("coffee_folder/footer.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 60px; /* Added padding to ensure content fits within the footer */
+}
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+.big-text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.subscribe {
+    position: relative;
+}
+.form-input{
+    border: 1px solid #fff;
+    width: 400px;
+    height: 40px;
+    padding: 0 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+
+}
+.form-button{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ffc107;
+    color: #fff;
+
+
+}
+
+.cafe-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cafe-para {
+    color: #fff;
+}
+
+.icon-foo {
+    list-style-type: none;
+}
+
+.con-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copy-text {
+    color: #fff;
+}
+
+.social a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.list-footer-block li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer section */

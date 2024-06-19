@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*navbar section*/
+.navbar-toggler {
+    border-color: rgba(237, 232, 232, 0.1);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#customItem1, #customItem2, #customItem3, #customItem4, #customItem5{
+    color: #fff;
+    font-size: 20px;
+}
+/*navbar section*/
+
+/*banner section*/
+
+.bg-banner{
+    background-image: url("coffee_folder/cup-coffee-with-roasted-raw-coffee-beans-falling-from-sack-wooden-backdrop.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-section-heading{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-section{
+    margin-left: 230px;
+}
+.banner-section-paragraph{
+    color: #fff;
+    font-size: 20px;
+    color: #fff;
+}
+.banner-section-buttoncover {
+    height: 50px;
+    width: 120px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #fff; 
+    cursor: pointer; 
+    font-size: 16px; 
+    text-align: center; 
+    
+}
+
+.banner-section-buttoncover:hover {
+    background-color: rgba(61, 59, 59, 0.2); 
+}
+/*
+@media (max-width: 1200px) {*/
+    /*.footer-section {*/
+        /*margin-left: 230px;*/ 
+    /*}*/
+/*}*/
+
+
+
+/*banner section*/
+
+/*about section*/
+
+.bg-about{
+    background-color: #121212;
+}
+.about-logo-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+}
+.about-logo-image{
+    font-size: 20px;
+    color:chocolate;
+    margin-right: 5px;
+}
+.about-heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+.about-paragraph{
+    font-size: 20px;
+    color: #fff;
+}
+.about-card-icon{
+    color:chocolate;
+    font-size: 25px;
+}
+.about-card-heading{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.about-card-paragraph{
+    color: #fff;
+}
+/*about section*/
+
+
+/* content section*/
+
+.bg-content-section {
+    width: 100%;
+    height: 80vh;
+    background-image: url(coffee_folder/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content-logo-image{
+    color: #fff;
+    font-size: 20px;
+}
+
+.sub-1-content {
+    position: absolute;
+    margin: 15rem;
+    width: 500px;
+}
+
+.content-para {
+    font-size: 15px;
+    color: white;
+}
+
+.content-heading2 {
+    font-size: 40px;
+    color: white;
+}
+
+.sub-con-2 {
+    display: flex;
+    float:right;
+    margin-top:30rem;
+    margin-right:50px;
+    overflow: hidden;
+}
+
+.card-back {
+    width:210px;
+    height: 250px;
+    margin-left: 50px;
+    background-color: white;
+    
+}
+
+.sub-img-coffee {
+    padding-top: 20px;
+    /* margin: auto; */
+    margin-left: 5px;
+    padding-top:5px;     
+    width:200px;
+    max-height: 200px;
+}
+
+.content-heading44 {
+    font-size: 20px;
+    color: #111;
+    /* margin-top: 30px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* content section*/
+
+/* image section */
+
+.img-bg-section{
+    background-color: #fff;
+
+
+}
+.img-box{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: rgba(9, 9, 9, 0.8);
+  top: 50%;
+  left: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3;
+  color: #fff;  
+}
+.img-box-title{
+    font-size: 30px;
+    margin: 0;
+}
+.img-section-sub-title{
+    font-size: 20px;
+}
+.img-section-icon{
+    color:chocolate;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.img-section-main-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* image section */
+
+/* testimonials */
+.test-bg {
+    background-image: url("coffee_folder/bg1.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-sub-title {
+    font-weight: 500;
+    font-weight: 20px;
+}
+
+.test-style {
+    font-weight: bold;
+    font-size: 30px;
+}
+.testimonial-heading{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.testimonial-para{
+    font-size: 15px;
+    color: #fff;
+}
+.testimonial-q{
+    color: #fff;
+}
+
+.img-area {
+    width: 100px;
+    height: 100px;
+    border-width: 0px;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+/* testimonials*/
+
+/* blog section */
+.blogs-heading{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blogs-Paragraph{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.blog-image {
+    width: 30px;
+    height: 30px;
+}
+.blog-card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.blog-subcard-heading{
+    font-size: 16px;
+}
+/* blog section */
+
+
+/* footer section*/
+
+.footer-section {
+    background-image: url("coffee_folder/footer.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 60px; /* Added padding to ensure content fits within the footer */
+}
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+.big-text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.subscribe {
+    position: relative;
+}
+.form-input{
+    border: 1px solid #fff;
+    width: 400px;
+    height: 40px;
+    padding: 0 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+
+}
+.form-button{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ffc107;
+    color: #fff;
+
+
+}
+
+.cafe-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cafe-para {
+    color: #fff;
+}
+
+.icon-foo {
+    list-style-type: none;
+}
+
+.con-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copy-text {
+    color: #fff;
+}
+
+.social a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.list-footer-block li {
+    display: flex;
+    justify-content: space-between;
+}
+/* footer section */
